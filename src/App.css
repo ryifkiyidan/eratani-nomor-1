@@ -1,0 +1,43 @@
+.text-content {
+  text-align: justify;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.light {
+  background-color: white !important;
+}
+
+* {
+  font-size: 23px;
+}

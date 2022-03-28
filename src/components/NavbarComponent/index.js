@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import Logo from '../../assets/Logo.png';
-import './styles.css';
 
 function NavbarComponent() {
   return (

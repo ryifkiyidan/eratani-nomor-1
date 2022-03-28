@@ -2,14 +2,13 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import AboutImage from '../../assets/Pic.png';
 import Logo from '../../assets/Logo.png';
-import './styles.css';
 
 function AboutComponent() {
   return (
     <>
-      <Container className="px-3 pt-5">
+      <Container className="px-3 pt-5 mb-2">
         <Row>
-          <Col className="text-center mb-5">
+          <Col className="text-center mb-4">
             <h1 className="text-success text-bold font-weight-bold">Tentang Kami</h1>
           </Col>
         </Row>
@@ -17,7 +16,7 @@ function AboutComponent() {
           <Col md="4">
             <div className="parent">
               <img alt="about" src={AboutImage} className="image1 w-100 h-auto" />
-              <img alt="logo" src={Logo} height="auto" className="image2 w-75" />
+              <img alt="logo" src={Logo} className="image2 w-75" />
             </div>
           </Col>
           <Col md="8">
