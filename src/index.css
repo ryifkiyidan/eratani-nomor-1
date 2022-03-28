@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://use.typekit.net/qex7jxj.css');
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Lato', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
 }
 
 code {
