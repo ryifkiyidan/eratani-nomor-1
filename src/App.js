@@ -6,6 +6,7 @@ import VisiComponent from 'components/VisiComponent';
 import NavbarComponent from './components/NavbarComponent';
 import './App.css';
 import MisiComponent from 'components/MisiComponent';
+import TeamComponent from 'components/TeamComponent';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AboutComponent />
       <VisiComponent />
       <MisiComponent />
+      <TeamComponent />
     </ThemeProvider>
   );
 }
