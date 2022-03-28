@@ -25,9 +25,9 @@ function NavbarComponent() {
                 Kegiatan
               </Nav.Link>
             </Nav>
-            <div>
-              <Button variant="warning">Mitra Petani</Button>
-            </div>
+            <Button style={{ fontSize: '23px' }} variant="warning">
+              Mitra Petani
+            </Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>
