@@ -24,7 +24,7 @@
   }
   .text-content {
     font-weight: normal !important;
-    font-size: 0.75rem + 1vw !important;
+    font-size: 1rem !important;
     line-height: 1.5 !important;
   }
   .image1 {
@@ -53,6 +53,16 @@
   .footer-container {
     display: flex !important;
     justify-content: space-between !important;
+  }
+  .white-logo {
+    width: 6.25rem !important;
+  }
+  .size-18 {
+    font-size: 0.75rem !important;
+  }
+  .lang-bar {
+    width: 0.8125rem !important;
+    height: 0.1875rem !important;
   }
 }
 

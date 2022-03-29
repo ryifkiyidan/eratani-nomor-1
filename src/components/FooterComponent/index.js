@@ -19,14 +19,30 @@ function InfoContainer() {
 
 function MenuContainer() {
   return (
-    <div className="px-2 px-lg-5 mt-4 mt-lg-0">
+    <div className="px-0 px-lg-5 mt-4 mt-lg-0">
       <div className="size-18 mb-3">
         <b>Menu</b>
       </div>
-      <div className="size-12 mb-1">Tim Kami</div>
-      <div className="size-12 mb-1">Mitra Eratani</div>
-      <div className="size-12 mb-1">Tips & Berita Pertanian</div>
-      <div className="size-12">Karir</div>
+      <div className="size-12 mb-1">
+        <a href="#tim" className="text-decoration-none text-white">
+          Tim Kami
+        </a>
+      </div>
+      <div className="size-12 mb-1">
+        <a href="#mitra" className="text-decoration-none text-white">
+          Mitra Eratani
+        </a>
+      </div>
+      <div className="size-12 mb-1">
+        <a href="#tips" className="text-decoration-none text-white">
+          Tips & Berita Pertanian
+        </a>
+      </div>
+      <div className="size-12">
+        <a href="#karir" className="text-decoration-none text-white">
+          Karir
+        </a>
+      </div>
     </div>
   );
 }
@@ -34,14 +50,14 @@ function MenuContainer() {
 function LanguageButton() {
   return (
     <div className="d-flex flex-row flex-wrap justify-content-lg-center align-items-lg-center my-0 my-lg-auto">
-      <div className="d-flex flex-row flex-wrap justify-content-center align-items-center mx-2">
+      <div className="d-flex flex-row flex-wrap justify-content-lg-center align-items-lg-center mx-1 mx-lg-2 pt-1 pt-lg-0">
         <i className="size-18 fa-solid fa-globe"></i>
       </div>
-      <div className="d-flex flex-column flex-wrap justify-content-center align-items-center size-18 mx-2">
+      <div className="d-flex flex-column flex-wrap justify-content-center align-items-center size-18 mx-1 mx-lg-2">
         <b>IN</b>
         <div className="lang-bar bg-warning"></div>
       </div>
-      <div className="d-flex flex-column flex-wrap justify-content-center align-items-center size-18 mx-2">
+      <div className="d-flex flex-column flex-wrap justify-content-center align-items-center size-18 mx-1 mx-lg-2">
         <b>EN</b>
         <div className="lang-bar bg-transparent"></div>
       </div>
@@ -93,7 +109,7 @@ function FooterComponent() {
           <SocialMedia />
         </div>
       </Container>
-      <Container className="footer-container p-5">
+      <Container className="footer-container px-3 pt-5 pb-1">
         <div className="d-flex flex-column flex-wrap">
           <InfoContainer />
           <SocialMedia />
