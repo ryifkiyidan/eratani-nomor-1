@@ -75,3 +75,39 @@
   top: 25px;
   right: 25px;
 }
+
+footer {
+  background-color: #0e9749;
+  color: white;
+}
+
+.footer-container {
+  padding: 45px 95px 18px 95px;
+}
+
+.white-logo {
+  filter: brightness(0) invert(1);
+  width: 150px;
+  height: auto;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.size-12 {
+  font-size: 12px;
+}
+
+.size-18 {
+  font-size: 18px;
+}
+
+.address {
+  width: 195px;
+}
+
+.lang-bar {
+  width: 26px;
+  height: 5px;
+}

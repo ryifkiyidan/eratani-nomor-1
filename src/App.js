@@ -4,9 +4,10 @@ import AboutComponent from 'components/AboutComponent';
 import BannerComponent from 'components/BannerComponent';
 import VisiComponent from 'components/VisiComponent';
 import NavbarComponent from './components/NavbarComponent';
-import './App.css';
 import MisiComponent from 'components/MisiComponent';
 import TeamComponent from 'components/TeamComponent';
+import FooterComponent from 'components/FooterComponent';
+import './App.css';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <VisiComponent />
       <MisiComponent />
       <TeamComponent />
+      <FooterComponent />
     </ThemeProvider>
   );
 }
