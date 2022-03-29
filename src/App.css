@@ -2,6 +2,14 @@
   .navbar-container {
     background-color: white !important;
   }
+  .footer-container-lg {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .footer-container {
+    display: none !important;
+    justify-content: space-between !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -37,6 +45,14 @@
   }
   .team-container {
     display: none !important;
+  }
+  .footer-container-lg {
+    display: none !important;
+    justify-content: center !important;
+  }
+  .footer-container {
+    display: flex !important;
+    justify-content: space-between !important;
   }
 }
 
@@ -142,10 +158,6 @@
 footer {
   background-color: #0e9749;
   color: white;
-}
-
-.footer-container {
-  padding: 2.8125rem 5.9375rem 1.125rem 5.9375rem;
 }
 
 .white-logo {

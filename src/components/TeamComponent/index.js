@@ -7,24 +7,24 @@ import BharatO from '../../assets/pak bharat 3.png';
 import Riswanto from '../../assets/Pak-Riswanto 1.png';
 import LinkedIn from '../../assets/Linkedin.png';
 
-function TeamComponent() {
-  function Card({ image, linkedIn, name, jobPosition }) {
-    return (
-      <div>
-        <div className="card-container">
-          <img src={image} alt="team" />
-          <a href={linkedIn} className="card-linkedin">
-            <img src={LinkedIn} alt="team" />
-          </a>
-          <div className="card-detail-container">
-            <p className="card-detail-name">{name}</p>
-            <p className="card-detail-position">{jobPosition}</p>
-          </div>
+function Card({ image, linkedIn, name, jobPosition }) {
+  return (
+    <div>
+      <div className="card-container">
+        <img src={image} alt="team" />
+        <a href={linkedIn} className="card-linkedin">
+          <img src={LinkedIn} alt="team" />
+        </a>
+        <div className="card-detail-container">
+          <p className="card-detail-name">{name}</p>
+          <p className="card-detail-position">{jobPosition}</p>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
+function TeamComponent() {
   return (
     <Container className="team-container px-3 pt-5 mb-2">
       <Row>

@@ -2,20 +2,20 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Bullet from '../../assets/Ellipse 76.png';
 
-function MisiComponent() {
-  function List({ text }) {
-    return (
-      <Col md="12" className="d-flex flex-row mb-3">
-        <div className="d-flex align-items-start pt-3 ps-2 pe-3 pe-lg-4">
-          <img alt="bullet" src={Bullet} className="bullet-icon" />
-        </div>
-        <div>
-          <p className="m-0 text-content">{text}</p>
-        </div>
-      </Col>
-    );
-  }
+function List({ text }) {
+  return (
+    <Col md="12" className="d-flex flex-row mb-3">
+      <div className="d-flex align-items-start pt-3 ps-2 pe-3 pe-lg-4">
+        <img alt="bullet" src={Bullet} className="bullet-icon" />
+      </div>
+      <div>
+        <p className="m-0 text-content">{text}</p>
+      </div>
+    </Col>
+  );
+}
 
+function MisiComponent() {
   return (
     <Container className="px-3 pt-5 mb-2">
       <Row>
